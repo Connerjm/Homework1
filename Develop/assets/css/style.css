@@ -1,13 +1,21 @@
+/* Styling for all elements. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
+    /* Temp borders to see elements easier. */
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: red; */
 }
 
+/* Sets the entire sites background color. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Formats the header bar. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,7 +58,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* Adds the large main image. */
+.main_img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -69,12 +78,14 @@ p {
     margin-left: 25px;
 }
 
+/* Formats the main content area. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Formats the right hand benefits area. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -188,6 +199,7 @@ p {
     font-size: 36px;
 }
 
+/* Formats the footer. */
 .footer {
     padding: 30px;
     clear: both;
